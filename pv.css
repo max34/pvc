@@ -1,0 +1,390 @@
+/* 
+    Document   : pv
+    Created on : Oct 21, 2013, 2:28:51 PM
+    Author     : adan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*----------------General style whole website---------*/
+*{
+    font-family: Arial;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+body, h1, h2, h3, h4, h5, form, label, input, hr, div, span, p{
+    /*background-color: #24607f;*/
+    margin: 0;
+    padding: 0;
+}
+/*----------index style sheet-----------*/
+
+
+#location address{
+    font-size: 18px;
+}
+#location p address{
+    width:275px;
+}
+.mainContainerIndex {
+    min-height: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: #9fc5f8;
+}
+
+#container{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    
+}
+#container iframe{
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    width:400px;
+    height:350px;
+}
+#container img{
+    
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    width:400px;
+    height:350px;
+}
+#mission{
+    width:1050px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+}
+#mission h2{
+    color: #50505f;
+    font-size: 28px;
+    -webkit-text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5 );
+    -moz-text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5 );
+    -o-text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5 );
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5 );
+}
+
+/*---------- end index style sheet-----------*/
+
+/*---------header style sheet------------*/
+header {
+   padding: 0px;
+   margin: 0px;
+}
+header {
+    border-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #073763;
+}
+
+header hr {
+    clear: both;
+    height: 2px;
+    background-color: white;
+}
+.headerUpperSection {
+    background-color: black;
+    height: 86px;
+}
+.headerUpperSection #logo {
+    width: 400px;
+    height: 76px;
+    float: left;
+}
+.headerUpperSection img {
+    float: left;
+    height: 76px;
+    width: 104px;
+}
+#logo h1 {
+    color: white;
+    padding-top: 10px;
+}
+#logo h5 {
+    color: #9EC4F6;
+}
+.faSignIn {
+    float: right;
+    margin-right: 50px;
+    padding-top: 25px;
+    color: white;
+}
+.headerUpperSection form label {
+    color: white;
+}
+#navigation{
+    background-color: white;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius:5px;
+    -border-radius:5px;
+}
+#navigation ul{
+    margin: 0;
+    padding:0;        
+}
+#navigation ul li{
+    display:inline-block;
+    list-style:none;
+    padding: 40px 10px;
+    margin-left: -25px;
+}
+#navigation ul li a{
+    color: #000;
+    font-size:14px;
+    font-weight: bold;
+    padding: 40px 10px;
+    text-decoration: none;
+}
+#navigation ul li a:hover{
+    background-color: #ff5105;
+    color:#fff;
+}
+/*----------end Header style sheet-----------*/
+/*----------footer style sheet---------------*/
+footer ul, li, a{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+footer {
+    height: 250px;
+    background-color: #24607f;
+    clear: both;
+}
+footer div {
+    height: 25px;
+    background-color: #073763; 
+
+}
+footer ul li.listColumn {
+    float: left;
+    margin: 30px;
+    
+}
+footer ul li ul li {
+    float: none;
+    margin: 5px;
+}
+footer a {
+    color: antiquewhite;
+}
+footer p {
+    clear: left;
+    margin-right: 50px;
+    color: antiquewhite;
+    float: right;
+}
+/*-----------appointment style sheet------------*/
+.mainContainer {
+    min-height: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: #9fc5f8;
+}
+
+.mainContainer #message {
+    font-size: small;
+}
+.apponintmentForm {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+   /* margin-top: 100px;
+    margin-bottom: 100px;*/
+    border-left: 100px;
+    border-style: solid;
+    border-color: #24607f;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.apponintmentForm #submit {
+    margin-left: 250px;
+}
+.apponintmentForm #spanDate {
+    opacity: .5;
+    margin-left: 5px;
+}
+/*--------  blog style sheet  ---------*/
+.mainContainerBlog {
+    min-height: 100%;
+    background: #9fc5f8;    
+    padding-bottom: 100px;
+}
+.blogPost {
+    width: fit-content;
+    max-width: 760px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.blogPost h1 {
+    font-family: Verdana;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.blogPost img {
+     width: 450px;
+     margin-left: 100px;;
+}
+.blogPost small {
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+.blogPost article {
+    font-family: "Bookman Old Style", Bookman;
+    font-size: 25px;
+    font-weight: bold; 
+    margin-top: 20px;
+    opacity: 0.7;
+}
+/*----------end of the blog stylesheet-------*/
+/*------------------testimony stylesheet---------------*/
+.mainContainerTestimony {
+    min-height: 100%;
+    background-color: #9fc5f8;
+}
+.testimonios {
+    width: fit-content;
+    max-width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimonios #testimonyNode {
+    width: 300px;
+    max-width: 300px;
+    height: fit-content;
+    max-height: 220px;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: #24607f;
+    border-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-color:#24607f;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+#testimonyNode h3 {
+    padding: 15px;
+    background-color: #ff5105; 
+    opacity: .7;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+#testimonyNode p {
+    padding: 15px;
+    font-style: italic;
+}
+#testimonyNode input {
+    width: 100%;
+ }
+ #testimonyNode textarea {
+     width: 100%;
+ }
+ .testimonios div {
+     visibility: hidden;
+ }
+/*--------------------Staff stylesheet ----------------*/
+.mainContainerStaff {
+    min-height: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: #9fc5f8;
+}
+.mainContainerStaff table{
+    margin:0 auto;
+    width:840px;
+    border:1px;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainContainerStaff table img{
+
+    width:90px;
+    height:119px;
+}
+img{
+   width:90px;
+   height:119px; 
+}
+.mainContainerStaff #doctors td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*------------------------Services stylesheet-----------------*/
+#Clinic{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#Store{
+      width: 1050px;
+    margin: 0 auto;
+    margin-top: 85px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#Clinic img{
+    width:280px;
+    height:180px;
+}
+#Store img{
+    width:280px;
+    height:180px;
+}
+.services{
+    width: 1000px;
+    margin: 0;
+    margin-left: 10px;
+}
+.description{
+    width: 1000px;
+    margin: 0;
+    margin-left: 10px;
+}
+.Simg{
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.mainContainer h1{
+    color: #000;
+    margin: 0;
+    margin-left: 10px
+}
