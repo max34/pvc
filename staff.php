@@ -99,8 +99,39 @@ function googleTranslateElementInit() {
                      <h5>General Ophthalmology</h5>
                     <div>
                         <img src="img/gonzalez.jpg" alt="freilich">
-                        <p>A new staff member bio will be added soon</p>
-                   
+                    <p>Dr. Carmen. H. Gonzalez is a Board Certified member to practice in the state of New Jersey. She has experienced in 
+                    diagnostics and treatment of a wide range of diseases and disorders of the eyes. Dr. Carmen H. Gonzalez comes from a
+                    Hispanic background which can help us to better understand our community. She has offer her services to many places, 
+                    and her studies can help you reach a better health for your sight.</p>
+                    <p><strong>Academic Background</strong></p>
+                    <ul>
+                        <li>Louisiana State University/Ochsner Clinic Foundation, New Orleans, AL</li>
+                        <li>University of Medicine &AMP; Dentistry of New Jersey, Newark, NJ</li>
+                        <li>Saint Barnabas Medical Center, Livingston, NJ</li>
+                        <li>Massachusetts, Eye &AMP; Ear Infirmary, Boston, MA</li>
+                        <li>New England Eye Center, Boston, MA</li>
+                        <li>The Wilmer Eye Institute, Baltimore, MD</li>
+                        <li>Cleveland Clinic Foundation Eye Institute, Cleveland, OH</li>
+                        <li>Pontifica Universidad Javeriana, Bogota, Colombia</li>
+                        <li>Hospital Reginal de Duitana, Duitana, Colombia</li>
+                        <li>Hospital Universitario de San Ignacio, Bogota, Colombia</li>
+                        <li>Mount Sinai School of Medicine</li>
+                        <li>Harvard Medical School</li>
+                    </ul>
+                    <p><strong>Special Interest</strong></p>
+                    <ul>
+                        <li>General Ophthalmology</li>
+                        <li>Glaucoma Treatment</li>
+                    </ul>
+                    <p><strong>Laboral Background &AMP; Practice</strong></p>
+                    <ul>
+                        <li>Northern New Jersey Eye Institute, NJ</li>
+                        <li>University of Medicine &AMP; Dentistry of New Jersey, Newark, NJ</li>
+                        <li>New England Eye Center, Boston, MA</li>
+                        <li>Centro Medico de los Andes, Bogota, Colombia</li>
+                        <li>Hospital Universitario de la Misericordia, Bogota, Colombia</li>
+                        <li>Centro Policlinic del Olaya, Bogota, Colombia</li>
+                    </ul>
                     </div>
                 </div>
             <!--en of accordion-->
