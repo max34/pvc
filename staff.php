@@ -3,14 +3,7 @@
         <head>
             <title>Passaic Vision Staff</title>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-                     <link rel="stylesheet" href="pv.css" type="text/css">
-                     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-                     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-                    <script type="text/javascript">
-                        $(function() {
-                        $( "#accordion" ).accordion();
-                          });
-                    </script>  
+                     <link rel="stylesheet" href="pv.css" type="text/css"> 
         </head>
         <body>
           <div id="google_translate_element"></div><script type="text/javascript">
@@ -19,13 +12,14 @@ function googleTranslateElementInit() {
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                     <h3>Dr. Mendoza.</h3>
+                    <h5>General Ophthalmology</h5>
                     <div>
                         <img  src="img/mendoza.jpg">
-                    <p>Dr. Mendoza was born in Pamplona, Colombia, in South America, country in which he has done his
+                    <p>Dr. Luis Mendoza is a Board Certified ophthalmologist, was born in Pamplona, Colombia, in South America, country in which he has done his
                        academic studies. He then moved to North America where he became a Diplomat of the American Board
                        of opthalmology in 1974. Dr. Mendoza was appointed to the medical staff of St.Joseph's Hospital in
                        Paterson, Nj, and Beth Israel Hospital in Passaic, Nj. In 1972, he opened his office as a General
-                       Opthalmologist, then in 2012, he moved his office to Passaic, place in which his more than happy to
+                       Ophthalmologist, then in 2012, he moved his office to Passaic, place in which his more than happy to
                        treat the community.</p>
                     <p><strong>Academic Background</strong></p>
                     <ul>
@@ -36,6 +30,7 @@ function googleTranslateElementInit() {
                     <p><strong>Special Interest</strong></p>
                     <ul>
                         <li>General Opthalmology</li>
+                        <li>Pediatric Ophthalmology</li>
                     </ul>
                     <p><strong>Laboral Background &AMP; Practice</strong></p>
                     <ul>
@@ -44,6 +39,7 @@ function googleTranslateElementInit() {
                     </ul>
                     </div>
                     <h3>Dr. Gunzburg.</h3>
+                    <h5>Eye Surgeon</h5>
                     <div>
                         <img  src="img/allison.jpg" alt="gunzbrug">
                     <p>Dr. Allison Gunzburg is a Board Certified comprehensive ophthalmologist, specializing in cornea 
@@ -69,6 +65,7 @@ function googleTranslateElementInit() {
                     </ul>
                     </div>
                      <h3>Dr.Freilich.</h3>
+                     <h5>Eye Surgeon</h5>
                     <div>
                         <img  src="img/benjamin.jpg" alt="freilich">
                     <p>Dr. Benjamin D. Freilich is a Board Certified to practice in the states of New York and New Jersey,
@@ -99,9 +96,10 @@ function googleTranslateElementInit() {
                     </ul>
                     </div>
                      <h3>Dr.Gonzalez</h3>
+                     <h5>General Ophthalmology</h5>
                     <div>
                         <img src="img/gonzalez.jpg" alt="freilich">
-                        <p><strong>Coming soon a new staff member</strong></p>
+                        <p>A new staff member bio will be added soon</p>
                    
                     </div>
                 </div>
