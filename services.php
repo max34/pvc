@@ -59,20 +59,10 @@ function googleTranslateElementInit() {
     <div id="pymt">
         <h1>Insurance &AMP; Payment Options</h1>
         <div class="description">
-             <p>We accept most health insurance, check our list to see if your insurance is accepted.</p>
-             <ul>
-                 <li>Insurance 1</li>
-                 <li>Insurance 2</li>
-                 <li>Insurance 3</li>
-             </ul>
-             
+            <p><strong>We accept most health insurance, check our list to see if your insurance is accepted.</strong></p>
+            
             <h3>Credit Cards</h3>
-            <p>We accept major credit cards</p>
-            <ul>
-                 <li>c.c. 1</li>
-                 <li>c.c. 2</li>
-                 <li>c.c. 3</li>
-             </ul>
+            <p><strong>We accept major credit cards</strong></p>
         </div><!--description-->
         
     </div><!--end of payment-->
