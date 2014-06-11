@@ -26,7 +26,6 @@
 					}
 				  );
         </script>
-        <meta name="google-translate-customization" content="ef8c58b6dd052243-6fc8ffd8c48831ab-g97f64ea21ac42e14-21"></meta>
     </head>
    
     <body onload="fadeInFadeOutAnime();">

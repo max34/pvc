@@ -7,9 +7,7 @@
  
     <section class="headerUpperSection">
         <div id="logo">
-            <img alt="Passaic Vision" src="/passaicVision/images/pvLogo.png"/>
-            <h1>PASSAIC</h1>
-            <h5>Vision Center</h5>
+            <img alt="Passaic Vision" src="/pvc/images/passaicLogo.jpg"/>
         </div>
             <a class="faSignIn" id="faIn" href="http://www.poondo.com/profile/userLogIn.php"><i class="fa fa-pencil fa-edit fa" ></i></a>
         <br/>
