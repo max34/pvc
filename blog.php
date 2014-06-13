@@ -8,15 +8,10 @@ and open the template in the editor.
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Blog</title>
         <link rel="stylesheet" href="pv.css" type="text/css">
-        <meta name="google-translate-customization" content="ef8c58b6dd052243-6fc8ffd8c48831ab-g97f64ea21ac42e14-21"></meta>
+        <link rel="stylesheet" href="../bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../foundation.css" type="text/css">
 
     </head>
-    <body>
-        <div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <div id="blogDisplay">
         <?php
          
@@ -66,6 +61,7 @@ function googleTranslateElementInit() {
                 
                 mysqli_close($con);
         ?>
+         <?php include 'header.php';?>
         </div>
         <div id="blogInput">
       <form action="blog.php" method="POST">
@@ -77,5 +73,8 @@ function googleTranslateElementInit() {
        </form>
         </div><!--end of blog input -->
         <a href="index.php">HOME</a>
+         <script src="../jquery.min.js"></script>
+         <script src="../bootstrap.min.js"></script>
+  
     </body>
 </html>

@@ -3,19 +3,17 @@
         <head>
             <title>Passaic Vision Staff</title>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-                     <link rel="stylesheet" href="pv.css" type="text/css"> 
+                     <link rel="stylesheet" href="pv.css" type="text/css">
+                     <link rel="stylesheet" href="bootstrap.css" type="text/css">
         </head>
         <body>
-          <div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,it'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+         <?php include'header.php';?>
+            
                     <h3>Dr. Mendoza.</h3>
                     <h5>General Ophthalmology</h5>
-                    <div>
-                        <img  src="img/mendoza.jpg">
-                    <p>Dr. Luis Mendoza is a Board Certified ophthalmologist, was born in Pamplona, Colombia, in South America, country in which he has done his
+                    <div id="Doc">
+                        <img  src="img/mendoza.jpg" alt="mendoza" class="img-circle">
+                        <p>Dr. Luis Mendoza is a Board Certified ophthalmologist, was born in Pamplona, Colombia, in South America, country in which he has done his
                        academic studies. He then moved to North America where he became a Diplomat of the American Board
                        of opthalmology in 1974. Dr. Mendoza was appointed to the medical staff of St.Joseph's Hospital in
                        Paterson, Nj, and Beth Israel Hospital in Passaic, Nj. In 1972, he opened his office as a General
@@ -40,8 +38,8 @@ function googleTranslateElementInit() {
                     </div>
                     <h3>Dr. Gunzburg.</h3>
                     <h5>Eye Surgeon</h5>
-                    <div>
-                        <img  src="img/allison.jpg" alt="gunzbrug">
+                    <div id="doc">
+                        <img  src="img/allison.jpg" alt="gunzbrug" class="img-circle">
                     <p>Dr. Allison Gunzburg is a Board Certified comprehensive ophthalmologist, specializing in cornea 
                     and refractive surgery. After practicing and being a Certified Public Accountant. She decided 
                     to follow her lifelong interest in medicine. Originally from Chicago, she moved to
@@ -66,8 +64,8 @@ function googleTranslateElementInit() {
                     </div>
                      <h3>Dr.Freilich.</h3>
                      <h5>Eye Surgeon</h5>
-                    <div>
-                        <img  src="img/benjamin.jpg" alt="freilich">
+                     <div id="doc">
+                        <img  src="img/benjamin.jpg" alt="freilich" class="img-circle">
                     <p>Dr. Benjamin D. Freilich is a Board Certified to practice in the states of New York and New Jersey,
                     He is specially trained in eye diseases, surgery of retina and vitreous, and ophthalmology.
                     Dr. Freilich served as a flight surgeon in the United States Navy from 2000 - 2007. He is currently
@@ -97,8 +95,8 @@ function googleTranslateElementInit() {
                     </div>
                      <h3>Dr.Gonzalez</h3>
                      <h5>General Ophthalmology</h5>
-                    <div>
-                        <img src="img/gonzalez.jpg" alt="freilich">
+                     <div id="doc">
+                        <img src="img/gonzalez.jpg" alt="freilich" class="img-circle">
                     <p>Dr. Carmen. H. Gonzalez is a Board Certified member to practice in the state of New Jersey. She has experienced in 
                     diagnostics and treatment of a wide range of diseases and disorders of the eyes. Dr. Carmen H. Gonzalez comes from a
                     Hispanic background which can help us to better understand our community. She has offer her services to many places, 
@@ -135,6 +133,8 @@ function googleTranslateElementInit() {
                     </div>
                 </div>
             <!--en of accordion-->
-            <a href="index.php">home</a>
+         <script src="../jquery.min.js"></script>
+         <script src="../bootstrap.min.js"></script>
+  
         </body>
     </html>

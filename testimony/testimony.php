@@ -1,7 +1,7 @@
 <?php
 $message = NULL;
         //This is the localhost at the server poondocom.ipagemysql.com, pvc, passaic01, pvcBlog
-         $con = mysqli_connect('localhost', 'goodcoders', 'yellowbananas', 'pvcblog');
+         $con = mysqli_connect('localhost', 'root', 'secret', 'pvcblog');
                    
           if (mysqli_connect_errno($con)){ 
             
@@ -37,6 +37,8 @@ $message = NULL;
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="../engines/pv.css" type="text/css">
+        <link rel="stylesheet" href="../bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../foundation.css" type="text/css">
         <script src="../engines/pv.js"></script>
         <title>Passaic Vision</title>
     </head>
@@ -67,5 +69,8 @@ $message = NULL;
      </section>
     </section>
 <?php include '../footer.php'; ?>
+         <script src="../jquery.min.js"></script>
+         <script src="../bootstrap.min.js"></script>
+  
 </body>
 </html>

@@ -9,6 +9,8 @@ if(isset($_POST['fname'])) $message = sendAppointmentEmail($_POST);
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="../engines/pv.css" type="text/css">
+        <link rel="stylesheet" href="../bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../foundation.css" type="text/css">
         <script src="../engines/pv.js"></script>
         <title>Passaic Vision</title>
     </head>
@@ -48,10 +50,16 @@ if(isset($_POST['fname'])) $message = sendAppointmentEmail($_POST);
     <td>Reason for visit:</td>
     <td><textarea name="message" rows="10" cols="50"></textarea></td>
     </table>
-    <input id="submit" type="submit" value="Send" onclick="return signOnFormValidation();">
+    <input class="btn btn-primary"  type="button" value="Send" onclick="return signOnFormValidation();">
 </form>
 </section>
+    
+    <iframe width="300" height="201" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=289+Monroe+Street,+Passaic,+NJ+07055&amp;aq=0&amp;oq=289+Monroe+Street+Passaic,+NJ,+07055&amp;sll=40.07304,-74.724323&amp;sspn=6.279035,13.392334&amp;ie=UTF8&amp;hq=&amp;hnear=289+Monroe+St,+Passaic,+New+Jersey+07055&amp;ll=40.864893,-74.126276&amp;spn=0.012122,0.026157&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+
 <?php include '../footer.php'; ?>
+         <script src="../jquery.min.js"></script>
+         <script src="../bootstrap.min.js"></script>
+  
 </body>
 </html>
 <!--end of the file-->
