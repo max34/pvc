@@ -13,21 +13,6 @@
  
 </head>  
 <header>
-<<<<<<< HEAD
- 
-    <section class="headerUpperSection">
-        <div id="logo">
-            <img alt="Passaic Vision" src="/pvc/images/passaicLogo.jpg"/>
-        </div>
-            <a class="faSignIn" id="faIn" href="http://www.poondo.com/profile/userLogIn.php"><i class="fa fa-pencil fa-edit fa" ></i></a>
-        <br/>
-        <hr>
-    </section>
-     
-    <section class="headerLowerSection">
-        <div id="navigation">
-            <ul>
-=======
     <nav class="top-bar" data-topbar>
         <ul class="title-area">
             <li class="name">
@@ -40,7 +25,7 @@
         
         <section class="top-bar-section">
             <ul class="right">
->>>>>>> rebuild
+
                 <li><a href="/passaicVision/index.php">Home</a></li>
                 <li><a href="/passaicVision/staff.php">Staff</a></li>
                 <li><a href="/passaicVision/services.php">Services</a></li>

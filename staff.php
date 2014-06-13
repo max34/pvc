@@ -11,7 +11,7 @@
             
                     <h3>Dr. Mendoza.</h3>
                     <h5>General Ophthalmology</h5>
-                    <div id="Doc">
+                    <div id="doc">
                         <img  src="img/mendoza.jpg" alt="mendoza" class="img-circle">
                         <p>Dr. Luis Mendoza is a Board Certified ophthalmologist, was born in Pamplona, Colombia, in South America, country in which he has done his
                        academic studies. He then moved to North America where he became a Diplomat of the American Board
