@@ -4,6 +4,8 @@
         <title>Passaic Vision</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="pv.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="foundation.css" type="text/css">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script type="text/javascript">
@@ -15,7 +17,7 @@
     //call to function which will start the animation
     function fadeInFadeOutAnime(){ //definition of animation function 
     $('#container #1').fadeIn(2000).delay(1800).fadeOut(2000, function(){ //	using id of img element we start a chain of fade in, delay
-    $('#container #2').fadeIn(2000).delay(1800).fadeOut(2000, function(){ //	, and fade out events that will end
+    $('#conatiner #2').fadeIn(2000).delay(1800).fadeOut(2000, function(){ //	, and fade out events that will end
     $('#container #3').fadeIn(2000).delay(1800).fadeOut(2000, function(){
     
 						
@@ -28,54 +30,82 @@
         </script>
     </head>
    
-    <body onload="fadeInFadeOutAnime();">
+    <body>
         <?php include 'header.php'; ?>
-        <div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,it'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-       <div id="container" data-orbit>
-           <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;cid=6380703124201646712&amp;q=Passaic+Vision+Center&amp;gl=US&amp;hl=en&amp;t=h&amp;ll=40.864864,-74.126151&amp;spn=0.007789,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
-            <img id="1"src="img/center.jpg" name="slide"/>
-            <img id="2" src="img/rightangle.jpg"/>
-            <img id="3" src="img/leftangle.jpg"/>
-         
-         <div id="location">
-            <address>
-                <p>289 Monroe Street Passaic, NJ, 07055<br/>
-                    <strong>Phone:</strong>&nbsp(973) 473-5151 &nbsp
-                <strong>fax:</strong>&nbsp(973) 473-3331</p>
-            </address>
-        </div><!--end of location-->
-       </div><!-- end of container-->  
+      
+ 
+       <div class="orbit-container" id="slider">
+          <ul data-orbit class="example-orbit orbit-slides-container">
+            <li>
+                <img id="1" src="img/right.JPG" alt="slide 1" />
+               <div class="orbit-caption">Caption One.</div>
+            </li>
+            <li class="active">
+                <img id="2" src="img/leftangle.jpg" alt="slide 1" />
+               <div class="orbit-caption">Caption Two.</div>
+            </li>
+            <li>
+                <img id="3" src="img/rightangle.JPG" alt="slide 1" />
+               <div class="orbit-caption">Caption Three.</div>
+            </li>
+          </ul>
+
+                    <!-- Navigation Arrows -->
+            <a href="#" class="orbit-prev">Prev <span></span></a>
+            <a href="#" class="orbit-next">Next <span></span></a>
+
+                    <!-- Slide Numbers -->
+            <div class="orbit-slide-number">
+             <span>1</span> of <span>3</span>
+            </div>
+
+                  <!-- Timer and Play/Pause Button -->
+            <div class="orbit-timer">
+             <span></span>
+             <div class="orbit-progress"></div>
+            </div>
+            </div>
         
-       
-       <div id="mission">
-           <h2>Mission Statement</h2>
-          <p>Passaic Vision Center llc is a health service company. Located in the hearth of Passaic 
-              in the state of New Jersey. We are in charge of the eye health of our community. 
-              We as a clinic and nevertheless as human beings, take care of our community no just as a chart number, 
-              but as a member of this community. Our Staff members and Ophthalmologists are here to take care of your eyes,
-              by providing an excellent service, the most accurate equipment of the area, and the most knowledgeable staff.
-              </p>
-              <br/>
-              <p>
-              We, as family members and members of the Passaic Community, 
-              are always seeking for our community's best interest, for that reason we expanding our store, 
-              and offering the most affordable prices in the county. We keep our business going because of you 
-              the patient and our most valuable family member. We learn more from the community everyday so we 
-              put it into practice everyday, that reflects on our performance on and off the premises.
-          </p>
-          <br/>
-          <p>
-              A word from Doctor Mendoza: “After more than forty years as a Physician, specialized in Ophthalmology (eyes), 
-              I know and I feel that<strong>NOW</strong> I am more qualified to provide my patients <strong>the best integral eye care.</strong> 
-              Each patient is a whole person and not just a pair of sick eyes.” 
-              Believe it to see it followed by see it to believe it.
-          </p>
-         </div><!-- end of mission-->
+                  <!-- Bullets -->
+            <ol class="orbit-bullets">
+              <li data-orbit-slide-number="1"></li>
+              <li data-orbit-slide-number="2" class="active"></li>
+              <li data-orbit-slide-number="3"></li>
+            </ol>
+              
+           
+             <div class=" large-4 columns medium-3 columns small-12 columns">
+                 <a href="/passaicVision/services.php"><div class="panel callout">
+                  <h5>Learn more about</h5>
+                  <ul>
+                     <li><a href="/passaicVision/services.php">Services</a></li>
+                     <li><a href="#">location</a></li>
+                  </ul>
+                  </div>
+             </div>
+             
+              <div class=" large-4 columns medium-3 columns small-12 columns">
+                 <a href="/passaicVision/appointment/appointment.php"><div class="panel callout">
+                  <h5>Appointment</h5>
+                  <p>Make an appointment and look for our office hours. <br/>
+                  See your doctor's schedule</p>
+                  </div></a>
+             </div>
+             
+              <div class=" large-4 columns medium-3 columns small-12 columns">
+                 <a href="/passaicVision/testimony/testimony.php"><div class="panel callout">
+                  <h5>Comment</h5>
+                  <p>Give us a comment and let us know how we can improve</p>
+                  </div></a>
+             </div>
+             
+                  
+           
+
         
         <?php include 'footer.php'; ?>
+         <script src="../jquery.min.js"></script>
+         <script src="../bootstrap.min.js"></script>
+  
     </body>
 </html>
